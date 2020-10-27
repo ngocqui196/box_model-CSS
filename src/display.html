@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị Box_model</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        #box-class {
+            margin: auto;
+            width: 500px;
+            border: 10px;
+            padding: 10px;
+            background-color: #41c462;
+            border-color: red crimson deeppink orangered;
+            border-style: outset;
+            border-radius: 10px;
+
+        }
+        #p1 {
+            font-family: Arial;
+            color: gainsboro;
+            border: 3px double #00ffa5;
+            solid-color: #1d2ba7;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        #p1:hover{
+            background-color: #00ac6b;
+        }
+        #p2 {
+            font-family: "Arial Narrow";
+            color: gainsboro;
+            border: 3px outset #00ffa5;
+            solid-color: #1d2ba7;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+        #p2:hover{
+            background-color: #00ac6b;
+            border:3px inset;
+            border-radius: 2px;
+        }
+        #p3 {
+            color: gainsboro;
+            font-family: "Baskerville Old Face";
+            border: 3px outset #00ffa5;
+            solid-color: #1d2ba7;
+            padding: 10px;
+            margin-bottom: 60px;
+        }
+        #p3:hover{
+            background-color: #00ac6b;
+            border:3px inset;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-class" >
+        <p id="p1">Phần hiển thị ở đây</p>
+        <p id="p2">Thế này vẫn như thế</p>
+        <p id="p3">Sao không phải là tôi</p>
+    </div>
+</body>
+</html>
